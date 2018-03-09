@@ -1,6 +1,6 @@
 'use strict'
 
-const ServiceProvider = require('adonis-fold').ServiceProvider
+const { ServiceProvider } = require('@adonisjs/fold')
 const AdonisMongoose = require('mongoose')
 
 class MongooseProvider extends ServiceProvider {
